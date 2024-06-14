@@ -22,3 +22,4 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/program-studi', [App\Http\Controllers\ProgramStudiController::class, 'index'])->name('program-studi');
