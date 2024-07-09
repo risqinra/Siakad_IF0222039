@@ -315,6 +315,7 @@ return [
             'url' => 'admin/blog',
             'can' => 'manage-blog',
         ],
+        
         ['header' => 'account_settings'],
         [
             'text' => 'profile',
@@ -327,16 +328,25 @@ return [
             'icon' => 'fas fa-fw fa-lock',
         ],
         [
-            'text' => 'Data Master',
+            'text' => 'master data',
             'icon' => 'fas fa-fw fa-share',
             'submenu' => [
                 [
-                    'text' => 'Program Studi',
+                    'text' => 'program studi',
                     'url' => 'program-studi',
                 ],
+                [
+                    'text' => 'fakultas',
+                    'url' => 'fakultas',
+                ],
+                [
+                    'text' => 'Data Sekolah',
+                    'url' => 'sekolah',
+                ]
+                
             ],
         ],
-
+        
     ],
 
     /*
